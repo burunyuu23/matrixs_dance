@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ru.vsu.edu.shlyikov_d_g.FrameMain">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="900" height="1200"/>
+    </constraints>
+    <properties>
+      <minimumSize width="300" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="97c99" binding="tasks_panel" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="5ae77" binding="task1" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="a2359" binding="task1output">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <verticalScrollBarPolicy value="21"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="f7218" class="javax.swing.JTable" binding="task1_tableOutput">
+                    <constraints/>
+                    <properties>
+                      <editingColumn value="1"/>
+                      <editingRow value="1"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="fc6b8" binding="task1input">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <verticalScrollBarPolicy value="21"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="6c587" class="javax.swing.JTable" binding="task1_tableInput">
+                    <constraints/>
+                    <properties>
+                      <editingColumn value="1"/>
+                      <editingRow value="1"/>
+                      <rowHeight value="60"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <vspacer id="8e569">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="693c2" binding="task2" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card2"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="95eb1" binding="task2input">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <verticalScrollBarPolicy value="21"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="eb4a4" class="javax.swing.JTable" binding="task2_tableInput">
+                    <constraints/>
+                    <properties>
+                      <editingColumn value="1"/>
+                      <editingRow value="1"/>
+                      <rowHeight value="60"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="a7ed2" binding="task2output">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <verticalScrollBarPolicy value="21"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="99083" class="javax.swing.JTable" binding="task2_tableOutput">
+                    <constraints/>
+                    <properties>
+                      <editingColumn value="1"/>
+                      <editingRow value="1"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="9743a" class="javax.swing.JLabel" binding="task2_A">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Matrix"/>
+                </properties>
+              </component>
+              <component id="61939" class="javax.swing.JLabel" binding="task2_A_1">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Inverse Matrix"/>
+                </properties>
+              </component>
+              <component id="e3d21" class="javax.swing.JTable" binding="task2_tableUnitMatrix">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <enabled value="false"/>
+                  <focusable value="false"/>
+                </properties>
+              </component>
+              <component id="3f687" class="javax.swing.JLabel" binding="task2_unitMatrix">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Unit Matrix"/>
+                </properties>
+              </component>
+              <component id="ce3e2" class="javax.swing.JButton" binding="buttonMultiply">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Multiply"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="92d9b" binding="task3" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card3"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="e64f9" binding="task3input">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <verticalScrollBarPolicy value="21"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="94b36" class="javax.swing.JTable" binding="task3_tableInput">
+                    <constraints/>
+                    <properties>
+                      <editingColumn value="1"/>
+                      <editingRow value="1"/>
+                      <rowHeight value="60"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="24fe8" binding="task3intput2">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <verticalScrollBarPolicy value="21"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="19f20" class="javax.swing.JTable" binding="task3_tableInput2">
+                    <constraints/>
+                    <properties>
+                      <editingColumn value="1"/>
+                      <editingRow value="1"/>
+                      <rowHeight value="60"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="6f246" binding="task3output">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <enabled value="false"/>
+                  <focusable value="false"/>
+                  <requestFocusEnabled value="false"/>
+                  <verticalScrollBarPolicy value="21"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="2f0b3" class="javax.swing.JTable" binding="task3_tableOutput">
+                    <constraints/>
+                    <properties>
+                      <editingColumn value="1"/>
+                      <editingRow value="1"/>
+                      <enabled value="false"/>
+                      <rowHeight value="60"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="fc556" class="javax.swing.JLabel" binding="task3_A">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Matrix A"/>
+                </properties>
+              </component>
+              <component id="576e8" class="javax.swing.JLabel" binding="task3_X">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Matrix B"/>
+                </properties>
+              </component>
+              <component id="f277b" class="javax.swing.JLabel" binding="task3_B">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Matrix X"/>
+                </properties>
+              </component>
+              <component id="cae60" class="javax.swing.JLabel" binding="task3_formula">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="A * X = B"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="1d2f1" binding="task4" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="Card4"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="6caad" binding="Kramer" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <vspacer id="7ad80">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="35e0a" class="javax.swing.JButton" binding="changeGauss">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Gauss"/>
+                    </properties>
+                  </component>
+                  <component id="1dc19" class="javax.swing.JTextArea" binding="kramer_SLAU">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <component id="9aeb0" class="javax.swing.JTextArea" binding="kramer_Variables">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <scrollpane id="d9fb5" binding="kramerInput">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="200"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <verticalScrollBarPolicy value="21"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="13f05" class="javax.swing.JTable" binding="kramer_tableInput">
+                        <constraints/>
+                        <properties/>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+              <grid id="33443" binding="Gauss" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card2"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="eeaa5" class="javax.swing.JButton" binding="changeKramer">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Kramer"/>
+                    </properties>
+                  </component>
+                  <vspacer id="a4f99">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="e251d" class="javax.swing.JTextArea" binding="gauss_SLAU">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <component id="7cdd7" class="javax.swing.JTextArea" binding="gauss_Variables">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                  <scrollpane id="8944" binding="gaussIn">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="200"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <verticalScrollBarPolicy value="21"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="4f5c5" class="javax.swing.JTable" binding="gauss_tableInput">
+                        <constraints/>
+                        <properties/>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="ff217" binding="task5" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card5"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="a49d4" binding="task5_Input">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <verticalScrollBarPolicy value="21"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="5b89e" class="javax.swing.JTable" binding="task5_tableInput">
+                    <constraints/>
+                    <properties>
+                      <editingColumn value="1"/>
+                      <editingRow value="1"/>
+                      <rowHeight value="60"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <grid id="36088" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="14ed4">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="ca595" class="javax.swing.JTextArea" binding="task5_gausses">
+                        <constraints/>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <component id="341f3" class="javax.swing.JTextArea" binding="task5_values">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="f945e" binding="task6" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card6"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="b092f" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="3c598" class="javax.swing.JTextArea" binding="task6_inputB">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="9203a" class="javax.swing.JTextArea" binding="task6_inputA">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <grid id="5f226" binding="task6_paint" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="5f45d" binding="buttonsPanel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9b4a8" class="javax.swing.JButton" binding="buttonLoadInputFromFile">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Input from file"/>
+            </properties>
+          </component>
+          <component id="23db4" class="javax.swing.JButton" binding="buttonOutput">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Output into file"/>
+            </properties>
+          </component>
+          <component id="e5fc1" class="javax.swing.JButton" binding="buttonSolve">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Solve"/>
+            </properties>
+          </component>
+          <component id="2b72b" class="javax.swing.JButton" binding="buttonRandom">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Create Random Matrix"/>
+            </properties>
+          </component>
+          <grid id="abbe9" binding="maxNumPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="aaf0a" class="javax.swing.JLabel" binding="matrixMax">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Max Random Number"/>
+                </properties>
+              </component>
+              <component id="3ff15" class="javax.swing.JSpinner" binding="maxSpinner">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <vspacer id="99d07">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="9ff1" binding="matrixSizePanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e919" class="javax.swing.JLabel" binding="matrixSize">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Matrix Size"/>
+                </properties>
+              </component>
+              <component id="9fb55" class="javax.swing.JSpinner" binding="sizeSpinner">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <vspacer id="2c1ed">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="60a93" binding="selectorPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="56d2c" class="javax.swing.JComboBox" binding="taskChooser">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ddb10" class="javax.swing.JButton" binding="taskSelectorButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="4" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="TaskSelector"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor" id="fc6b8"/>
+  </inspectionSuppressions>
+</form>
